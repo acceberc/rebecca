@@ -1,0 +1,151 @@
+body{
+    color: #471a47;
+    background-color:rgba(228, 227, 227, 0.274);
+    font-family: Tahoma;
+    font-size: 35px;
+    justify-content: space-around;
+}
+
+
+.imagem{
+height: 300px;
+width: 300px;
+}
+
+.logo{
+  height: 35px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.pparede{
+    display: block;
+    background: url(https://i.ibb.co/xzQtPtk/depositphotos-407098120-stock-photo-flat-lay-womens-office-desk.webp);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto{
+  font-size: 18px;
+}
+
+nav{
+    color: rgba(255, 255, 255, 0.514);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #ffffff;
+    justify-content: space-around;
+    position: static;
+    
+}
+
+#quemsoueu{
+    text-align: justify;
+    margin: 40px;
+    border: 3px;
+}
+
+#tecnologias{
+    text-align: justify;
+    margin: 40px;
+    border: 3px;
+}
+
+#projetos{
+    text-align: justify;
+    margin: 40px;
+    border: 3px;
+}
+
+#pqtecnologia{
+  text-align: justify;
+  margin: 40px;
+  border: 3px;
+}
+
+.box1{
+  float: left;
+}
+
+.box2{
+  float: right;
+}
+
+footer{
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.proj{
+  background-color: transparent;
+    width: 350px;
+    height: 200px;
+    border: 1px solid #f1f1f100;
+    perspective: 1000px;  
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.box {
+    background-color: transparent;
+    width: 350px;
+    height: 200px;
+    border: 1px solid #f1f1f100;
+    perspective: 1000px;  
+    font-size: 20px;
+  }
+  
+  .container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+  
+  }
+  
+  .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .box:hover .inner {
+    transform: rotateY(180deg);
+  }
+  
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 50px;
+  }
+  
+  .front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .back {
+    background-color: rgba(163, 117, 163, 0.253);
+    color: rgb(56, 22, 119);
+    transform: rotateY(180deg);
+    border-radius: 50px;
+    border: 2px dotted #ff00ff;
+  }
